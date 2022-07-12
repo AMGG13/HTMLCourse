@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    .tresdclick{
+    background-color: blueviolet;
+    color: aliceblue;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    box-shadow: 3px 8px 8px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: opacity 0.15s,box-shadow 0.15s,
+    margin-left 0.15s,margin-top 0.15s;
+    }
+    .tresdclick:hover{
+      opacity: 0.9;
+    }
+    .tresdclick:active{
+      box-shadow: 0 0 0 black;
+      margin-left: 5px;
+      margin-top: 5px;
+    }
+    .extends{
+      background-color: green;
+      color: aliceblue;
+      border: none;
+      margin-left: 8px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      transition:padding-left 0.2s,
+      padding-right 0.2s,margin-left 0.2s;
+    }
+    .extends:hover{
+      padding-left: 25px;
+      padding-right: 25px;
+      margin-left: 0px;
+    }
+    .extends:active{
+      opacity: 0.8;
+    }
+  </style>
+  <body>
+    <button class="tresdclick">Click</button>
+    <button class="extends">Uno</button>
+  </body>
+</html>
